@@ -1,0 +1,64 @@
+.footer{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    &__left{
+        width: 50%;
+        .footer__logo{
+            width: 80%;
+            margin-bottom: 1rem;
+            h2{
+                font-size: 50px;
+                margin-bottom: 2rem;
+            }
+            p{
+                line-height:28px;
+                font-size: 1.2rem;
+            }
+        }
+        .footer__form{
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            input{
+                height: 50px;
+                width: 70%;
+                outline: none;
+                border-radius: 30px;
+                font-size: 18px;
+                padding-left: 15px;
+                border: 1px solid black;
+            }
+            button{
+                height: 50px;
+                width: 25%;
+                border-radius: 30px;
+                font-size:18px;
+                background-color: #3a3b40;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+        }
+       
+    }
+    &__right{
+        width: 50%;
+        display: flex;
+        .footer__contactUs{
+            margin: 30px auto 0;
+            .footer__contact{
+                margin-bottom: 20px;
+                h4{
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+.footer__copyright {
+    p {
+    padding-bottom: 20px !important;
+
+    }
+}
